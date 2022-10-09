@@ -2,14 +2,14 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <sidebar-link to="/dashboard"  icon="tim-icons icon-chart-pie-36"/>
-        <sidebar-link to="/icons" icon="tim-icons icon-atom"/>
-        <sidebar-link to="/maps"  icon="tim-icons icon-pin"/>
-        <sidebar-link to="/notifications"  icon="tim-icons icon-bell-55"/>
-        <sidebar-link to="/profile"  icon="tim-icons icon-single-02"/>
+        <sidebar-link to="/dashboard" name="Dashboard" icon="tim-icons icon-chart-pie-36"/>
+        <sidebar-link to="/Dashboard/Empresas" name="Empresas" icon="tim-icons icon-atom"/>
+        <sidebar-link to="/Dashboard/Proyectos"  name="Proyectos" icon="tim-icons icon-pin"/>
+        <sidebar-link to="/Dashboard/Usuarios" name="Usuarios" icon="tim-icons icon-bell-55"/>
+        <!-- <sidebar-link to="/profile"  icon="tim-icons icon-single-02"/>
         <sidebar-link to="/table-list" icon="tim-icons icon-puzzle-10"/>
         <sidebar-link to="/typography"  icon="tim-icons icon-align-center"/>
-        <!-- <sidebar-link to="/dashboard?enableRTL=true"  icon="tim-icons icon-world"/> -->
+        <sidebar-link to="/dashboard?enableRTL=true"  icon="tim-icons icon-world"/> -->
       </template>
     </side-bar>
     <div class="main-panel">

@@ -22,9 +22,24 @@ export default new Router({
       }
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
+      path: "/dashboard",
       component: DashboardLayout,
+      children: [
+        {
+          path: "empresas",
+          name: "Empresas",
+          // component: Dashboard
+        },
+        {
+          path: "proyectos",
+          name: "Proyectos",
+          // component: Profile
+        },
+        {
+          path: "usuarios",
+          name: "usuarios",
+          // component: Profile
+        }]
     },
     {
       path: '/login',
